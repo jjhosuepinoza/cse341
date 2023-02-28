@@ -1,0 +1,19 @@
+// LOCALHOST
+###
+GET http://localhost:8080/contacts HTTP/1.1;
+###
+GET http://localhost:8080/contacts63fc33736f65ed12b99d6328
+###
+GET http://localhost:8080/contacts/622023f642f9ab4cd6e060b3
+###
+GET http://localhost:8080/contacts/622023f642f9ab4cd6e060b4 HTTP/1.1;
+
+// PRODUCTION Deploy
+###
+GET 
+###
+GET https://cse341-javier-espinoza.onrender.com/contacts
+###
+GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b3
+###
+GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b4
